@@ -3,7 +3,7 @@ public:
     int xorAllNums(vector<int>& nums1, vector<int>& nums2) {
         int n = nums1.size();
         int m = nums2.size();
-        unordered_map<int,int> mp;
+        unordered_map<int,long long int > mp;
         for(auto num : nums1){
             mp[num] +=m;
         }
