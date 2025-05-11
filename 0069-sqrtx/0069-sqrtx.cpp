@@ -5,7 +5,7 @@ public:
         int e = x;
         while(s<=e){
             int mid = e-(e-s)/2;
-            int sq = mid *mid;
+            long long sq = (long long)mid *mid;
             if(  sq== x){
                 return mid;
             }
