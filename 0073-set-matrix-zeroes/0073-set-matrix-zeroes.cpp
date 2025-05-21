@@ -16,7 +16,7 @@ public:
                     }
                     for(int c = 0 ; c < m ; c++){
                         matrix[c][j]=0;
-                        cout<<c<<" "<<j <<endl;
+                   
                     }
                      
                 }
